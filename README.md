@@ -20,7 +20,7 @@ Grasses is a native macOS menu bar companion for reading English. Select text, r
 
 This public repository is the official distribution channel for Grasses. It will host release packages and release notes. A Sparkle update feed will also be published here after automatic updates are integrated into the app. The application source code is maintained separately.
 
-![Grasses word analysis result](https://grasses.brainbeats.pro/assets/grasses-result-light-en.png)
+![Grasses word analysis result](assets/grasses-result-light-en.png)
 
 ## Download
 
