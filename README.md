@@ -122,7 +122,7 @@ Before sending sensitive text, review the privacy terms and account settings of 
 ## System Requirements
 
 - macOS 13 or later
-- Apple silicon or Intel Mac
+- Mac with Apple silicon; Intel Macs are not supported
 - Your own API key for AI word and phrase analysis, translation, and grammar analysis. On-device OCR and system speech do not make AI service requests.
 
 ## Support

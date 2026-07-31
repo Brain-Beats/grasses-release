@@ -122,7 +122,7 @@ Grasses 只会在你使用对应功能时请求系统权限：
 ## 系统要求
 
 - macOS 13 或更高版本
-- Apple 芯片或 Intel Mac
+- 搭载 Apple 芯片的 Mac；不支持 Intel Mac
 - AI 单词与短语分析、翻译和语法分析需要你自己的 API Key；本机 OCR 和系统发音不会请求 AI 服务
 
 ## 支持
