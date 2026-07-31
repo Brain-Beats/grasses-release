@@ -20,7 +20,7 @@
 
 Grasses is a native macOS menu bar companion for reading English. Select text, read from the clipboard, or capture text from an image, then get the analysis beside the content you are already reading.
 
-This public repository is the official distribution channel for Grasses. It hosts release packages, release notes, and the signed Sparkle update feed published with public releases. The application source code is maintained separately.
+This repository is the official distribution channel for Grasses. It hosts release packages, release notes, and the signed Sparkle update feed published with public releases.
 
 ![Grasses Pro word analysis result with manual reading modes](assets/grasses-result-light-en.png)
 
@@ -33,8 +33,6 @@ Published builds are available from [GitHub Releases](https://github.com/Brain-B
 3. Launch Grasses. It stays in the menu bar instead of opening a permanent main window.
 4. Choose an AI Provider, enter your own API key, and test the connection.
 5. Start with the Free features, or activate Grasses Pro from Settings -> General -> License.
-
-Public release packages are Universal binaries for Apple silicon and Intel Macs, signed with a Developer ID certificate, and notarized by Apple.
 
 ## Read Without Leaving Your Place
 
