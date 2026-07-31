@@ -129,8 +129,13 @@ Grasses 只会在你使用对应功能时请求系统权限：
 
 ## 支持
 
+- QQ 交流群：`1075924792`（安装配置、激活帮助、使用交流和版本通知）
 - 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
 - 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
 - 官网：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
 
-反馈问题时，请勿提交 API Key、私人阅读内容、包含敏感信息的截图或完整 AI 响应。
+<p align="center">
+  <img src="assets/qq-group-qr.png" width="280" height="280" alt="Grasses QQ 交流群二维码，群号 1075924792">
+</p>
+
+反馈问题时，请勿提交 API Key、完整的 `GRS1` 激活码、Activation Token、私人阅读内容、包含敏感信息的截图或完整 AI 响应。

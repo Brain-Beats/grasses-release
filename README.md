@@ -129,8 +129,13 @@ Before sending sensitive text, review the privacy terms and account settings of 
 
 ## Support
 
+- QQ Community (China): `1075924792` for setup, activation help, usage questions, and release updates
 - Email: [support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
 - Issues: [GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
 - Website: [grasses.brainbeats.pro](https://grasses.brainbeats.pro)
 
-When reporting a problem, do not include API keys, private reading content, screenshots containing sensitive information, or full AI responses.
+<p align="center">
+  <img src="assets/qq-group-qr.png" width="280" height="280" alt="QR code for the Grasses QQ community, group 1075924792">
+</p>
+
+When reporting a problem, do not include API keys, complete `GRS1` activation codes, Activation Tokens, private reading content, screenshots containing sensitive information, or full AI responses.
