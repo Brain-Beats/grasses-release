@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Grasses</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 01 Aug 2026 08:12:35 +0800</pubDate>
+            <link>https://grasses.brainbeats.pro</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Grasses 1.0.0
+
+Grasses 的首个公开版本现已发布。它是一款常驻 macOS 菜单栏的英文阅读助手，帮助你在当前应用中完成取词、翻译、语法分析和图片文字识别，无需反复切换窗口。
+
+## 主要功能
+
+- 通过全局快捷键读取其他应用中选中的文本或剪贴板文本。
+- 自动区分单词、短语、句子和段落，并呈现适合当前内容的分析结果。
+- 提供单词原形、音标、常见词形、词性、释义、例句和系统发音。
+- 为句子和段落提供翻译，并支持重新分析与复制结果。
+- 支持 SiliconFlow、DeepSeek、智谱、Kimi、Mimo 和通义千问等 AI 服务。
+- API Key 安全存储在 macOS 钥匙串中，可在菜单栏快速切换已经配置的 AI 服务。
+- 支持自定义全局快捷键、界面外观、启动设置和语法颜色。
+- 内置 Sparkle 更新功能，后续版本可以在应用内检查更新。
+
+## 免费版与 Grasses Pro
+
+免费版包括：
+
+- 选中文本和剪贴板文本阅读。
+- 单词与短语的 AI 分析和系统发音。
+- 句子与段落翻译。
+- AI 服务配置、复制结果、重新分析和基础应用设置。
+
+Grasses Pro 额外解锁：
+
+- 读取剪贴板图片或屏幕选区，并使用 macOS Vision 在本地识别文字。
+- 句子语法分析，以及主语、谓语、宾语、补语和修饰语等成分着色。
+- 段落逐句深入分析。
+- 手动切换阅读模式。
+- 自定义语法成分颜色。
+
+[购买 Grasses Pro](https://pay.ldxp.cn/item/vqjuqm)
+
+购买后，在“设置 → 通用 → License”中粘贴完整的 `GRS1` 激活码即可完成激活。激活不需要注册 Grasses 账号，也不需要邮箱或邮箱验证码。一次购买可永久解锁当前及未来版本的 Grasses Pro。
+
+## 系统要求
+
+- macOS 13 或更高版本。
+- 配备 Apple 芯片的 Mac；不支持 Intel Mac。
+- 使用 AI 分析和翻译功能时，需要自行准备受支持服务的 API Key。Grasses Pro 不包含第三方 AI 服务费用。
+- “读取所选文本”需要辅助功能权限；“读取图片”需要屏幕录制权限。Grasses 只在你主动执行相应操作时使用这些权限。
+
+## 隐私
+
+- 图片文字识别完全在 Mac 本地完成。
+- 只有你选择分析的文字会直接发送给你配置的 AI 服务，Grasses 不通过中转服务器处理阅读内容。
+- API Key 和签名后的 Activation Token 保存在 macOS 钥匙串中。
+- Grasses 不创建阅读历史或图片历史。
+
+## 获取帮助
+
+- QQ 群：`1075924792`
+- 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
+- 网站：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
+- 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
+
+请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
+]]></description>
+            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.0.0/Grasses.dmg" length="3199346" type="application/octet-stream" sparkle:edSignature="QOAjj7Hp/8Q2GPS1DIboGIFFO29wMDII9i0lDysvYIMezf6IFN4ANiBJbIEiHElAsSahC4ReqJE9+QYI45jWBw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: L9qBuS3RpXhTO/XsIH+tg2y1sqJ5X33h24bGBj2Eg05QN3MAxFFb1JQU65u8+x5lLoWvjPiAji48Ds97ombPBA==
+length: 4176
+-->
