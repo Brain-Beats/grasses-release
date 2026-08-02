@@ -114,7 +114,7 @@ You can revoke either system permission in System Settings at any time. Other wo
 - Screenshots and clipboard images stay on your Mac and are used only for local Vision OCR.
 - Only the text you choose to analyze is sent directly to your configured AI service.
 - API keys stay in macOS Keychain.
-- Grasses creates no reading or image history.
+- Reading history is off by default. If you explicitly enable it, original text and completed results are stored only on your Mac; screenshots and clipboard images are never added to history. You can stop future writes or permanently delete all history in Privacy Settings.
 - Diagnostic logs exclude API keys, screenshots, full selected or OCR text, and full AI responses.
 
 Before sending sensitive text, review the privacy terms and account settings of the AI Provider you selected. See the complete [Privacy Policy](https://grasses.brainbeats.pro/privacy.html?lang=en) for data handling, retention, and deletion details.
