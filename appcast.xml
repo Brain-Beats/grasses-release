@@ -1,8 +1,72 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Grasses</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Sun, 02 Aug 2026 17:40:15 +0800</pubDate>
+            <link>https://grasses.brainbeats.pro</link>
+            <sparkle:version>1.2.0</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Grasses 1.2.0
+
+本次更新加入本机 Pro 体验和可选的本机阅读历史，并完善首次使用流程、历史数据可靠性与结果面板布局。
+
+## Pro 体验
+
+- 每台 Mac 可体验 20 次 Pro 深度阅读，成功使用图片 OCR、句子语法分析或段落逐句分析时才会扣除次数。
+- 单词与短语分析、失败或取消的请求、查看缓存结果、模式控件和语法颜色不会消耗体验次数。
+- 体验状态只保存在当前 Mac 的 macOS 钥匙串中，不上传到 Brain Beats、License 服务或 AI Provider。
+- 体验次数是 Grasses Pro 功能使用次数，不是 AI Token；AI 请求仍使用你自己配置的 API Key。
+
+## 阅读历史
+
+- 阅读历史默认关闭。首次得到完整结果后，Grasses 会明确询问是否在本机保存历史。
+- 开启后只保存原文和已完成的展示结果；截图、API Key、Provider 配置、流式中间状态和错误不会写入历史。
+- 查看缓存历史不会联系 AI Provider，也不会消耗 Pro 体验次数。
+- 最多自动保留 500 条非收藏记录；收藏记录不会自动清理。关闭历史只停止新增记录，不会删除已有内容。
+- 支持搜索、筛选、收藏、复制、重新分析、删除单条结果以及删除全部历史。
+
+## 可靠性与体验
+
+- 首次使用流程现在可以随时跳过，跳过后不会在下次启动时再次出现。
+- 修复排队写入可能在删除后重新创建阅读历史的问题。
+- 无法读取损坏或来自未来版本的历史记录时，不再静默删除数据；现在可以重试或单独删除该记录。
+- 修复阅读历史刷新、段落句子编号和小屏幕结果面板布局问题。
+- 单词释义和例句翻译统一使用中文输出。
+
+## 隐私
+
+- 阅读内容只会直接发送给你配置的 AI Provider；Brain Beats 不通过中转服务器处理阅读内容。
+- 图片 OCR 完全在 Mac 本地执行，截图不会加入阅读历史。
+- API Key、Activation Token 和 Pro 体验状态保存在 macOS 钥匙串中。
+- 阅读历史仅在你明确同意后保存在 `~/Library/Application Support/Grasses/History`，可以随时在隐私设置中删除。
+
+## 从 1.1.0 升级
+
+`1.1.0` 用户可以通过菜单栏中的“检查更新...”升级。如果当前网络无法访问旧版使用的 GitHub 更新源，请从 [GitHub Releases](https://github.com/Brain-Beats/grasses-release/releases) 手动下载并覆盖安装一次；`1.2.0` 起应用内更新改用 Grasses 官网更新源。现有设置、AI API Key、Activation Token 和已保存的阅读历史不会被删除。
+
+## 系统要求
+
+- macOS 13 或更高版本。
+- 配备 Apple 芯片的 Mac；不支持 Intel Mac。
+
+## 获取帮助
+
+- QQ 群：`1075924792`
+- 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
+- 网站：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
+- 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
+
+请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
+]]></description>
+            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.2.0/Grasses.dmg" length="3252385" type="application/octet-stream" sparkle:edSignature="DOBHiTA8GyFWZiMOyc4pPZxPllBFyI8tpTtKQgFn3ByfHbcE4PBzvbbzXTcHYb1ipOuajFVjv3lwE/FbtxW1Dg=="/>
+        </item>
         <item>
             <title>1.1.0</title>
             <pubDate>Sat, 01 Aug 2026 12:56:26 +0800</pubDate>
@@ -52,10 +116,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
 ]]></description>
-            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.1.0/Grasses.dmg" length="3189890" type="application/octet-stream" sparkle:edSignature="6V9jq8+SJL93I8M4vce6b+SJNPa9kU583N0PZuTH0BcvjU2nx4ajk+arKFg13wmJx17eYuEDppo0BeFNSogKBw=="></enclosure>
+            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.1.0/Grasses.dmg" length="3189890" type="application/octet-stream" sparkle:edSignature="6V9jq8+SJL93I8M4vce6b+SJNPa9kU583N0PZuTH0BcvjU2nx4ajk+arKFg13wmJx17eYuEDppo0BeFNSogKBw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: 2/Dq2QKRdmtL6XNaGtX4M1nBIf1bvG9L2fPf3MLPNKu7X0JRzVm8yQQ4g7RdwKmFxqwC1ChYAJGb3Db+aZTNBA==
-length: 3545
+</rss>
+<!-- sparkle-signatures:
+edSignature: GgL3WeZQKJGSv1b9VYrQkJGK6fFF0IUGYpXwZNsNbjAlJHVy3ylL2xrHLzk7MQVJJd8dpjyFneSusnocY12jCA==
+length: 7481
 -->
