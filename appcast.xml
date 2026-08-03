@@ -6,6 +6,59 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Grasses</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Mon, 03 Aug 2026 17:46:05 +0800</pubDate>
+            <link>https://grasses.brainbeats.pro</link>
+            <sparkle:version>1.2.1</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Grasses 1.2.1
+
+本次更新重点改善选取翻译和阅读历史复用，并增强对 Markdown、LaTeX 公式及学术内容的翻译支持。
+
+## 选取翻译
+
+- 改善 Zotero 等应用中的选取文本读取，解决手动复制正常但 Grasses 无法取得所选内容的问题。
+- 当目标应用没有及时响应复制操作时，Grasses 会等待并自动重试，提高长文本和复杂页面中的读取成功率。
+- 选取翻译完成后仍会恢复原有剪贴板内容，不影响之后的粘贴操作。
+
+## 阅读历史与结果复用
+
+- 开启阅读历史后，再次选取或复制相同内容时，会优先复用最近一次相同阅读类型的结果，减少不必要的 AI 请求和等待时间。
+- 如果历史结果完整，Grasses 会直接显示已有结果，不会再次联系 AI Provider，也不会消耗 Pro 体验次数。
+- 如果上次分析只有部分完成，Grasses 只会重新请求缺失或失败的部分，并保留已经完成的翻译或语法分析。
+- “重新分析”仍会明确绕过已有结果，用于需要重新生成内容的场景。
+- 避免相同内容和阅读类型在历史列表中产生重复记录；已有重复项会在后续保存匹配结果时合并。
+
+## Markdown、LaTeX 与学术内容
+
+- 支持翻译包含 Markdown 标题、列表、引用、强调、链接、行内代码和代码块的自然语言内容。
+- 支持包含 `$...$`、`\(...\)` 和 `\[...\]` 等 LaTeX 公式的文本，包括温度、上下标和论文引用等常见写法。
+- 翻译时会保留 Markdown 结构、LaTeX 公式、URL、代码片段和 HTML 标签，只翻译其中的自然语言。
+- 改善 URL 后跟正文等混合内容的识别，同时继续阻止将独立源代码误当作普通文本翻译。
+
+## 从 1.2.0 升级
+
+`1.2.0` 用户可以通过菜单栏中的“检查更新...”升级。现有设置、AI API Key、Activation Token 和已保存的阅读历史不会被删除。
+
+## 系统要求
+
+- macOS 13 或更高版本。
+- 配备 Apple 芯片的 Mac；不支持 Intel Mac。
+
+## 获取帮助
+
+- QQ 群：`1075924792`
+- 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
+- 网站：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
+- 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
+
+请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
+]]></description>
+            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.2.1/Grasses.dmg" length="3283637" type="application/octet-stream" sparkle:edSignature="3FQDHJ/k93CNxGuGKIpAVn7ZvtD3NyjwGi+y8p5FoeW3yM8G9TgGawg7gi6/nPqTs+nNYIroqJu/JpPy9ViRDw=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Sun, 02 Aug 2026 17:40:15 +0800</pubDate>
             <link>https://grasses.brainbeats.pro</link>
@@ -121,6 +174,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: GgL3WeZQKJGSv1b9VYrQkJGK6fFF0IUGYpXwZNsNbjAlJHVy3ylL2xrHLzk7MQVJJd8dpjyFneSusnocY12jCA==
-length: 7481
+edSignature: qHdaIax0cvDLqkFSc3L0xp8O+akTJe8nKn6yOrgVvqDv0TX5XmBiRdyvLNIpu/wnmcFRN9ljUTbXNeLmj1XrBA==
+length: 10770
 -->
