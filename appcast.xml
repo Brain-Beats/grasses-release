@@ -6,6 +6,61 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Grasses</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Wed, 05 Aug 2026 21:15:38 +0800</pubDate>
+            <link>https://grasses.brainbeats.pro</link>
+            <sparkle:version>1.2.2</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Grasses 1.2.2
+
+本次更新重新设计阅读结果、图片阅读和设置界面，增强 AI 请求的临时故障恢复，并为单词和短语补充独立中文翻译。
+
+## 阅读体验
+
+- 结果面板采用更清晰的翻译优先布局，改善翻译、语法分析、加载中和失败状态的呈现。
+- 优化段落阅读和句子分析布局，使内容层次、当前进度与异常提示更容易辨认。
+- 图片阅读现在更清楚地展示可分析区域、编号目标和分析进度，并改善 AI 尚未配置时的恢复流程。
+
+## AI 请求可靠性
+
+- 遇到服务暂时不可用、请求频率限制或临时网络错误时，Grasses 会自动重试，减少偶发中断。
+- 流式响应中断后仅在尚未输出内容时重试，避免结果面板出现重复文本。
+- 身份验证、配置和无效响应等需要用户处理的错误不会自动重试，错误反馈仍会直接显示。
+
+## 单词与短语翻译
+
+- 单词和短语分析现在都会提供独立的中文翻译，不再只依赖词义或用法说明。
+- 独立翻译会显示在阅读结果中，并包含在复制的结果文本里。
+- 再次打开缺少独立翻译的旧版单词或短语历史时，Grasses 会请求补全缺失内容。
+
+## 设置界面
+
+- 简化设置页面结构，并更明确地展示 AI Provider、API Key 和模型的就绪状态。
+- 改善连接测试的进行中、成功和失败反馈，便于确认当前 AI 配置是否可用。
+
+## 从 1.2.1 升级
+
+`1.2.1` 用户可以通过菜单栏中的“检查更新...”升级。现有设置、AI API Key、Activation Token 和已保存的阅读历史不会被删除。
+
+## 系统要求
+
+- macOS 13 或更高版本。
+- 配备 Apple 芯片的 Mac；不支持 Intel Mac。
+
+## 获取帮助
+
+- QQ 群：`1075924792`
+- 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
+- 网站：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
+- 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
+
+请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
+]]></description>
+            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.2.2/Grasses.dmg" length="3311177" type="application/octet-stream" sparkle:edSignature="swn71RBZTpT0wzcnYPy0kujG37pZnnSL+J4+o73tvqJ+Bk23hR0jBo4BhSmO2gxv6zBhFUZQm0LKFZx+e5v8Cw=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Mon, 03 Aug 2026 17:46:05 +0800</pubDate>
             <link>https://grasses.brainbeats.pro</link>
@@ -120,60 +175,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.2.0/Grasses.dmg" length="3252385" type="application/octet-stream" sparkle:edSignature="DOBHiTA8GyFWZiMOyc4pPZxPllBFyI8tpTtKQgFn3ByfHbcE4PBzvbbzXTcHYb1ipOuajFVjv3lwE/FbtxW1Dg=="/>
         </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Sat, 01 Aug 2026 12:56:26 +0800</pubDate>
-            <link>https://grasses.brainbeats.pro</link>
-            <sparkle:version>1.1.0</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Grasses 1.1.0
-
-本次更新升级了 Grasses Pro 的激活机制，为激活码增加设备名额和本机绑定，在保留永久授权与离线使用体验的同时，降低激活码被传播和滥用的风险。
-
-## 激活与授权
-
-- 每个 `GRS1` 激活码最多可激活两台 Mac。
-- 同一台 Mac 可以重复激活；抹盘并重新安装 macOS 后，只要硬件身份未变化，就不会占用新的设备名额。
-- Activation Token 与当前 Mac 绑定。Grasses 每次启动时都会在本机重新验证 Token，不能将 Token 复制到其他设备使用。
-- 首次激活仍需要连接 License 服务；激活成功后可继续离线使用 Grasses Pro。
-- 一次购买仍会永久解锁当前及未来版本的 Grasses Pro，不会变为订阅。
-
-## 从 1.0.0 升级
-
-`1.0.0` 使用旧版激活机制，需要从 GitHub Release 手动下载并覆盖安装 `1.1.0`。本次升级不会通过应用内更新自动安装。
-
-启动 `1.1.0` 后，旧版 Activation Token 会显示为无效。请在“设置 -> 通用 -> License”中重新输入原来的完整 `GRS1` 激活码。重新激活成功后，当前 Mac 将登记为一个设备名额；应用设置和已保存的 AI API Key 不受影响。
-
-从 `1.1.0` 开始，Grasses 使用 `MAJOR.MINOR.PATCH` 三段版本号判断更新，后续版本可以继续通过应用内“检查更新...”获取。
-
-## 隐私
-
-- Grasses 不读取或收集 Apple ID、Grasses 账号、邮箱或邮箱验证码。
-- 激活时只上传由 Mac 硬件标识在本机派生的应用范围哈希设备指纹，不上传原始硬件标识。
-- License 服务为每个激活码最多保存两个设备指纹，以及对应的首次和最近激活时间。
-- Activation Token 仍仅保存在本机 macOS 钥匙串中。
-
-## 系统要求
-
-- macOS 13 或更高版本。
-- 配备 Apple 芯片的 Mac；不支持 Intel Mac。
-
-## 获取帮助
-
-- QQ 群：`1075924792`
-- 邮箱：[support@grasses.brainbeats.pro](mailto:support@grasses.brainbeats.pro)
-- 网站：[grasses.brainbeats.pro](https://grasses.brainbeats.pro)
-- 问题反馈：[GitHub Issues](https://github.com/Brain-Beats/grasses-release/issues)
-
-请勿在公开反馈中提交 API Key、完整激活码、Activation Token 或包含隐私信息的阅读内容和截图。
-]]></description>
-            <enclosure url="https://github.com/Brain-Beats/grasses-release/releases/download/v1.1.0/Grasses.dmg" length="3189890" type="application/octet-stream" sparkle:edSignature="6V9jq8+SJL93I8M4vce6b+SJNPa9kU583N0PZuTH0BcvjU2nx4ajk+arKFg13wmJx17eYuEDppo0BeFNSogKBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qHdaIax0cvDLqkFSc3L0xp8O+akTJe8nKn6yOrgVvqDv0TX5XmBiRdyvLNIpu/wnmcFRN9ljUTbXNeLmj1XrBA==
-length: 10770
+edSignature: dX8uecHfWv870G8FjxLlXX3JSWM50iq+uSh3DFcx28WxhcfHU3gZbRog+KPVqL5R8AbLarQX3dXb3MxVD3BgCQ==
+length: 10648
 -->
